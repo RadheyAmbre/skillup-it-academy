@@ -1,0 +1,1140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="sm_logo.webp">
+    <title>SkillUp IT Academy</title>
+</head>
+
+<body>
+    <div class="progress">
+        <div class="progress-bar" id="myBar"></div>
+    </div>
+
+    <header>
+        <!-- Top Header -->
+        <div class="header-top primary-bg">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-xl-6 col-lg-6 col-sm-9 col-12">
+                        <div class="header-left d-flex">
+                            <i class="fas fa-phone me-3"></i>
+                            7208581498
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 col-lg-6 col-sm-3 col-12 text-center text-sm-end">
+                        <div>
+                            <a href="#"><i class="fa-brands fa-facebook-f mx-3" style="color: #ffffff;"></i></a>
+                            <span class="vl"></span>
+                            <a href="#"><i class="fa-brands fa-google-plus-g mx-3" style="color: #ffffff;"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Top Header -->
+
+        <!-- Bottom Header -->
+        <div class="header-bottom" id="sticky">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5 col-7">
+                        <!-- Logo -->
+                        <div class="logo py-1">
+                            <a href="#"><img src="logo.webp"></a>
+                            <h5>Microsoft Offical Partner</h5>
+                        </div>
+                    </div>
+                    <!-- Login -->
+                    <div class="col-xl-8 d-none d-xl-flex justify-content-end">
+                        <button class="btn-text border-0">
+                            <span>Login</span>
+                        </button>
+                    </div>
+                    <!-- Menu -->
+                    <div class="col-xl-1 col-lg-9 col-md-8 col-sm-7 col-5">
+                        <div onclick="openNav()" class="text-end">
+                            <i class="fa-solid fa-bars fa-xl" style="color: #000000; cursor: pointer;"></i>
+                        </div>
+
+                        <div id="myNav" class="overlay">
+
+                            <a class="closebtn" onclick="closeNav()">&times;</a>
+
+                            <div class="overlay-content">
+                                <div class="logo py-1">
+                                    <a href="#"><img src="logo.webp" style="width: 25%;"></a>
+                                </div>
+                                <a href="#">
+                                    <button class="btn-text border-0">
+                                        <span>Fundamental Modules</span>
+                                    </button>
+                                </a>
+                                <a href="#">
+                                    <button class="btn-text border-0">
+                                        <span>Business Modules</span>
+                                    </button>
+                                </a>
+                                <a href="#">
+                                    <button class="btn-text border-0">
+                                        <span>Web Designing Modules</span>
+                                    </button>
+                                </a>
+                                <a href="#">
+                                    <button class="btn-text border-0">
+                                        <span>Placement Modules</span>
+                                    </button>
+                                </a>
+                                <a href="#">
+                                    <button class="btn-text border-0">
+                                        <span>Infrastructure Modules</span>
+                                    </button>
+                                </a>
+                                <a href="#">
+                                    <button class="btn-text border-0">
+                                        <span>Testing Modules</span>
+                                    </button>
+                                </a>
+                                <a href="#">
+                                    <button class="btn-text border-0">
+                                        <span>Data Science & Visualization</span>
+                                    </button>
+                                </a>
+                                <a href="#">
+                                    <button class="btn-text border-0">
+                                        <span>Cyber Security & Bitcoin Modules</span>
+                                    </button>
+                                </a>
+                                <a href="#">
+                                    <button class="btn-text border-0">
+                                        <span>Trending Modules</span>
+                                    </button>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bottom Header -->
+    </header>
+
+    <!-- Slider -->
+    <div class="container-fluid g-0 pb-5">
+        <div>
+            <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" style="z-index: 0;">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" aria-current="true"
+                        aria-label="Slide 1" class="carousel-indi active">
+                    </button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"
+                        class="carousel-indi">
+                    </button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="slider_bg_1.webp" class="d-flex w-100" alt="first">
+                        <div class="carousel-caption">
+                            <div class="row">
+                                <div class="col-xl-8 col-md-12">
+                                    <div class="slideAnime">
+                                        <h1 style="font-weight: bold;">
+                                            <span class="d-flex">
+                                                <span style="color: #f54a8d;">Skill</span>
+                                                <span style="color: #133382;">Up</span>
+                                                <span class="ms-3" style="color: #f54a8d;">IT</span>
+                                                <span class="ms-3" style="color: #133382;">Academy</span>
+                                            </span>
+                                        </h1>
+                                        <h2 style="color: #000000; padding-bottom: 5px; font-weight: 400;">University,
+                                            College, School Syllabus Education
+                                        </h2>
+                                        <a href="#">
+                                            <button class="btn-text2 border-0">
+                                                <span>Enquire Now</span>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="slider_bg_2.webp" class="d-block w-100" alt="second">
+                        <div class="carousel-caption">
+                            <div class="row">
+                                <div class="col-xl-8 col-md-12">
+                                    <div class="slideAnime">
+                                        <h1 style="font-weight: bold;">
+                                            <span class="d-flex">
+                                                <span style="color: #f54a8d;">Skill</span>
+                                                <span style="color: #133382;">Up</span>
+                                                <span class="ms-3" style="color: #f54a8d;">IT</span>
+                                                <span class="ms-3" style="color: #133382;">Academy</span>
+                                            </span>
+                                        </h1>
+                                        <h2 style="color: #000000; padding-bottom: 5px; font-weight: 400;">Education
+                                            need
+                                            complete solution</h2>
+                                        <button class="btn-text2 border-0">
+                                            <span>Enquire Now</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev d-none d-md-block" type="button" data-bs-target="#carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next d-none d-md-block" type="button" data-bs-target="#carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- Slider -->
+
+    <!-- About Us-->
+    <div class="container py-5">
+        <div class="row">
+            <div class="text-center">
+                <h1 class="MultipleAnimation hide">
+                    <span class="ms-3 fw-bold" style="color: #f54a8d;">About</span>
+                    <span class="ms-3 fw-bold" style="color: #133382;">Us</span>
+                </h1>
+            </div>
+        </div>
+        
+        <div class="row d-flex flex-wrap justify-content-center px-3">
+            <div class="abtContent animationUp">
+                <div class="m-3">
+                    <ul>
+                        <li class="abtTree">
+                            <img src="PROFILE_SKILLUP_LOGO-02.webp" class="miniImg">
+                        </li>
+                        <li>
+                            <p class="text-secondary">skillupitacademy</p>
+                        </li>
+                    </ul>
+                    <div class="abtPara animationRight">
+                        <p>
+                            We at SkillUp IT Academy ensure that students are not only getting trained, educated in IT
+                            subjects or programming languages but also getting skilled so that they can explore
+                            knowledge
+                            and create new opportunities, innovation in this competitive and dynamic world.
+                        </p>
+                    </div>
+                    <ul>
+                        <li class="abtTree">
+                            <img src="PROFILE_SKILLUP_LOGO-02.webp" class="miniImg">
+                        </li>
+                        <li>
+                            <p class="text-secondary">skillupitacademy</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="abtContent animationUp">
+                <div class="m-3">
+                    <ul>
+                        <li class="abtTree">
+                            <img src="PROFILE_SKILLUP_LOGO-02.webp" class="miniImg">
+                        </li>
+                        <li>
+                            <p class="text-secondary">skillupitacademy</p>
+                        </li>
+                    </ul>
+                    <div class="abtPara animationRight">
+                        <p>
+                            We at SkillUp IT Academy work on to build platform where skill and ability can match up to
+                            build bright future of current and future generations. We believe in training where we train
+                            students to explore knowledge rather than settle on the existing skills they have.
+                        </p>
+                    </div>
+                    <ul>
+                        <li class="abtTree">
+                            <img src="PROFILE_SKILLUP_LOGO-02.webp" class="miniImg">
+                        </li>
+                        <li>
+                            <p class="text-secondary">skillupitacademy</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="abtContent animationUp">
+                <div class="m-3">
+                    <ul>
+                        <li class="abtTree">
+                            <img src="PROFILE_SKILLUP_LOGO-02.webp" class="miniImg">
+                        </li>
+                        <li>
+                            <p class="text-secondary">skillupitacademy</p>
+                        </li>
+                    </ul>
+                    <div class="abtPara animationRight">
+                        <p>
+                            Through our extensive feedback-oriented training, practice, assignments, projects we ensure
+                            to achieve our company's objectives, values, mission and belief towards kids, students,
+                            professionals who aim IT as their dream career and prospects.
+                        </p>
+                    </div>
+                    <ul>
+                        <li class="abtTree">
+                            <img src="PROFILE_SKILLUP_LOGO-02.webp" class="miniImg">
+                        </li>
+                        <li>
+                            <p class="text-secondary">skillupitacademy</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About Us-->
+
+    <!-- Modales -->
+    <div class="container my-5 py-5">
+        <div class="row">
+            <div class="text-center my-5">
+                <h1 class="MultipleAnimation hide">
+                    <span class="ms-3 fw-bold" style="color: #f54a8d;">Our</span>
+                    <span class="ms-3 fw-bold" style="color: #133382;">Modules</span>
+                </h1>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                        <!-- First -->
+                        <div class="mod animationUp my-3">
+
+                            <div class="modImg">
+                                <img src="modul1.webp">
+                                <div class="certificate">
+                                    <span><i class="fa-solid fa-certificate" style="color: #000000;"></i></span>
+                                    <span><i class="fa-solid fa-book" style="color: #000000;"></i></span>
+                                </div>
+                            </div>
+
+                            <div class="modMain">
+                                <div class="p-3 text-start">
+                                    <div class="feat mb-3">
+                                        <span>
+                                            <i class="fa-solid fa-star" style="color: #000000;"></i>featured
+                                        </span>
+                                    </div>
+                                    <p class="text-secondary">Any Stream</p>
+
+                                    <div class="modHead">
+                                        <h1>Fundamental Module</h1>
+                                    </div>
+
+                                    <ul>
+                                        <li class="abtTree">
+                                            <img src="PROFILE_SKILLUP_LOGO-02.webp" class="miniImg">
+                                        </li>
+                                        <li>
+                                            <p class="text-secondary">skillupitacademy</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="modFooter px-3 py-4">
+                                <div class="d-flex f-left">
+                                    <div class="CP">
+                                        <span>Core Programming</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="hoverMod hv1">
+                                <p class="anyBg mt-5">Any Stream</p>
+                                <h3 class="text-light fw-bold my-5">Fundamental Module</h3>
+                                <p class="text-light modPara">
+                                    Success is the natural consequence of consistently applying the basic fundamentals.
+                                </p>
+                                <div class="rating">
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                </div>
+                                <button class="btn-text border-0">
+                                    <span>For More detail</span>
+                                </button>
+                            </div>
+
+                        </div>
+                        <!-- First -->
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                        <!-- Second -->
+                        <div class="mod animationUp my-3">
+
+                            <div class="modImg">
+                                <img src="modul2.webp">
+                                <div class="certificate">
+                                    <span><i class="fa-solid fa-certificate" style="color: #000000;"></i></span>
+                                    <span><i class="fa-solid fa-book" style="color: #000000;"></i></span>
+                                </div>
+                            </div>
+
+                            <div class="modMain">
+                                <div class="p-3 text-start">
+                                    <div class="feat mb-3">
+                                        <span>
+                                            <i class="fa-solid fa-star" style="color: #000000;"></i>featured
+                                        </span>
+                                    </div>
+                                    <p class="text-secondary">Any Stream</p>
+
+                                    <div class="modHead">
+                                        <h1>Webdesign Module</h1>
+                                    </div>
+
+                                    <ul>
+                                        <li class="abtTree">
+                                            <img src="PROFILE_SKILLUP_LOGO-02.webp" class="miniImg">
+                                        </li>
+                                        <li>
+                                            <p class="text-secondary">skillupitacademy</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="modFooter px-3 py-4">
+                                <div class="d-flex f-left">
+                                    <div class="CP">
+                                        <span>Core Designing</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="hoverMod hv2">
+                                <p class="anyBg mt-5">Any Stream</p>
+                                <h3 class="text-light fw-bold my-5">Webdesign Module</h3>
+                                <p class="text-light modPara">
+                                    What separates design from art is that design is meant to be... functional.
+                                </p>
+                                <div class="rating">
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                </div>
+                                <button class="btn-text border-0">
+                                    <span>For More detail</span>
+                                </button>
+                            </div>
+
+                        </div>
+                        <!-- Second -->
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                        <!-- Third -->
+                        <div class="mod animationUp my-3">
+
+                            <div class="modImg">
+                                <img src="modul3.webp">
+                                <div class="certificate">
+                                    <span><i class="fa-solid fa-certificate" style="color: #000000;"></i></span>
+                                    <span><i class="fa-solid fa-book" style="color: #000000;"></i></span>
+                                </div>
+                            </div>
+
+                            <div class="modMain">
+                                <div class="p-3 text-start">
+                                    <div class="feat mb-3">
+                                        <span>
+                                            <i class="fa-solid fa-star" style="color: #000000;"></i>featured
+                                        </span>
+                                    </div>
+                                    <p class="text-secondary">Any Stream</p>
+
+                                    <div class="modHead">
+                                        <h1>Bussiness Module</h1>
+                                    </div>
+
+                                    <ul>
+                                        <li class="abtTree">
+                                            <img src="PROFILE_SKILLUP_LOGO-02.webp" class="miniImg">
+                                        </li>
+                                        <li>
+                                            <p class="text-secondary">skillupitacademy</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="modFooter px-3 py-4">
+                                <div class="d-flex f-left">
+                                    <div class="CP">
+                                        <span>Bussiness Module</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="hoverMod hv3">
+                                <p class="anyBg mt-5">Any Stream</p>
+                                <h3 class="text-light fw-bold my-5">Bussiness Module</h3>
+                                <p class="text-light modPara">
+                                    Excel at doing what your passion is and only focus on perfecting it.
+                                </p>
+                                <div class="rating">
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                </div>
+                                <button class="btn-text border-0">
+                                    <span>For More detail</span>
+                                </button>
+                            </div>
+
+                        </div>
+                        <!-- Third -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modales -->
+
+    <!-- Enroll -->
+    <div class="enroll">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="animationUp">Start a Journey. Enroll Now.</h1>
+                    <p class="animationRight">LEARN SOMETHING WHEREVER YOU ARE</p>
+                    <button class="btn-text border-0 animationLeft">
+                        <span>join a course now</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Enroll -->
+
+    <!-- Modales -->
+    <div class="container my-5 py-5">
+        <div class="row">
+            <div class="text-center my-5">
+                <h1 class="MultipleAnimation hide">
+                    <span class="ms-3 fw-bold" style="color: #f54a8d;">Our</span>
+                    <span class="ms-3 fw-bold" style="color: #133382;">Modules</span>
+                </h1>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                        <!-- Fourth -->
+                        <div class="mod animationUp my-3">
+
+                            <div class="modImg">
+                                <img src="modul4.webp">
+                                <div class="certificate">
+                                    <span><i class="fa-solid fa-certificate" style="color: #000000;"></i></span>
+                                    <span><i class="fa-solid fa-book" style="color: #000000;"></i></span>
+                                </div>
+                            </div>
+
+                            <div class="modMain">
+                                <div class="p-3 text-start">
+                                    <div class="feat mb-3">
+                                        <span>
+                                            <i class="fa-solid fa-star" style="color: #000000;"></i>featured
+                                        </span>
+                                    </div>
+                                    <p class="text-secondary">Any Stream</p>
+
+                                    <div class="modHead">
+                                        <h1>Placement Module</h1>
+                                    </div>
+
+                                    <ul>
+                                        <li class="abtTree">
+                                            <img src="PROFILE_SKILLUP_LOGO-02.webp" class="miniImg">
+                                        </li>
+                                        <li>
+                                            <p class="text-secondary">skillupitacademy</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="modFooter px-3 py-4">
+                                <div class="d-flex f-left">
+                                    <div class="CP">
+                                        <span>Core Programming</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="hoverMod hv4">
+                                <p class="anyBg mt-5">Any Stream</p>
+                                <h3 class="text-light fw-bold my-5">Placement Module</h3>
+                                <p class="text-light modPara">
+                                    Success is the natural consequence of consistently applying the basic fundamentals.
+                                </p>
+                                <div class="rating">
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                </div>
+                                <button class="btn-text border-0">
+                                    <span>For More detail</span>
+                                </button>
+                            </div>
+
+                        </div>
+                        <!-- Fourth -->
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                        <!-- Fifth -->
+                        <div class="mod animationUp my-3">
+
+                            <div class="modImg">
+                                <img src="modul5.webp">
+                                <div class="certificate">
+                                    <span><i class="fa-solid fa-certificate" style="color: #000000;"></i></span>
+                                    <span><i class="fa-solid fa-book" style="color: #000000;"></i></span>
+                                </div>
+                            </div>
+
+                            <div class="modMain">
+                                <div class="p-3 text-start">
+                                    <div class="feat mb-3">
+                                        <span>
+                                            <i class="fa-solid fa-star" style="color: #000000;"></i>featured
+                                        </span>
+                                    </div>
+                                    <p class="text-secondary">Any Stream</p>
+
+                                    <div class="modHead">
+                                        <h1>Infrastructure Modules</h1>
+                                    </div>
+
+                                    <ul>
+                                        <li class="abtTree">
+                                            <img src="PROFILE_SKILLUP_LOGO-02.webp" class="miniImg">
+                                        </li>
+                                        <li>
+                                            <p class="text-secondary">skillupitacademy</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="modFooter px-3 py-4">
+                                <div class="d-flex f-left">
+                                    <div class="CP">
+                                        <span>Core Designing</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="hoverMod hv3">
+                                <p class="anyBg mt-5">Any Stream</p>
+                                <h3 class="text-light fw-bold my-5">Infrastructure Modules</h3>
+                                <p class="text-light modPara">
+                                    What separates design from art is that design is meant to be... functional.
+                                </p>
+                                <div class="rating">
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                </div>
+                                <button class="btn-text border-0">
+                                    <span>For More detail</span>
+                                </button>
+                            </div>
+
+                        </div>
+                        <!-- Fifth -->
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                        <!-- Sixth -->
+                        <div class="mod animationUp my-3">
+
+                            <div class="modImg">
+                                <img src="modul6.webp">
+                                <div class="certificate">
+                                    <span><i class="fa-solid fa-certificate" style="color: #000000;"></i></span>
+                                    <span><i class="fa-solid fa-book" style="color: #000000;"></i></span>
+                                </div>
+                            </div>
+
+                            <div class="modMain">
+                                <div class="p-3 text-start">
+                                    <div class="feat mb-3">
+                                        <span>
+                                            <i class="fa-solid fa-star" style="color: #000000;"></i>featured
+                                        </span>
+                                    </div>
+                                    <p class="text-secondary">Any Stream</p>
+
+                                    <div class="modHead">
+                                        <h1>Testing Module</h1>
+                                    </div>
+
+                                    <ul>
+                                        <li class="abtTree">
+                                            <img src="PROFILE_SKILLUP_LOGO-02.webp" class="miniImg">
+                                        </li>
+                                        <li>
+                                            <p class="text-secondary">skillupitacademy</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="modFooter px-3 py-4">
+                                <div class="d-flex f-left">
+                                    <div class="CP">
+                                        <span>Testing Module</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="hoverMod hv3">
+                                <p class="anyBg mt-5">Any Stream</p>
+                                <h3 class="text-light fw-bold my-5">Testing Module</h3>
+                                <p class="text-light modPara">
+                                    Excel at doing what your passion is and only focus on perfecting it.
+                                </p>
+                                <div class="rating">
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                </div>
+                                <button class="btn-text border-0">
+                                    <span>For More detail</span>
+                                </button>
+                            </div>
+
+                        </div>
+                        <!-- Sixth -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modales -->
+
+    <!-- Info -->
+    <div class="bgImg">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="bgContent animationRight">
+                        <img src="counter_icon1.webp" alt="1">
+                        <span>100+ Topics</span>
+                        <h3>LEARN ANYTHING</h3>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="bgContent animationUp">
+                        <img src="counter_icon2.webp" alt="2">
+                        <span>1900+ Students</span>
+                        <h3>FUTURE GENIUS</h3>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="bgContent animationDown">
+                        <img src="counter_icon3.webp" alt="3">
+                        <span>15900 Tests Taken</span>
+                        <h3>THATS A LOT</h3>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="bgContent animationLeft">
+                        <img src="counter_icon4.webp" alt="4">
+                        <span>10+ Instructors</span>
+                        <h3>ALL TRAINED PROFESSIONALS</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Info -->
+
+    <!-- Enroll -->
+    <div class="enroll">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="animationUp">Learning Today. Leading Tomorrow. Enroll Now.</h1>
+                    <p class="animationRight">LEARN SOMETHING WHEREVER YOU ARE</p>
+                    <button class="btn-text border-0 animationLeft">
+                        <span>join a course now</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Enroll -->
+
+    <!-- Modales -->
+    <div class="container my-5 py-5">
+        <div class="row">
+            <div class="text-center my-5">
+                <h1 class="MultipleAnimation hide">
+                    <span class="ms-3 fw-bold" style="color: #f54a8d;">Our</span>
+                    <span class="ms-3 fw-bold" style="color: #133382;">Modules</span>
+                </h1>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                        <!-- Seventh -->
+                        <div class="mod animationUp my-3">
+
+                            <div class="modImg">
+                                <img src="modul4.webp">
+                                <div class="certificate">
+                                    <span><i class="fa-solid fa-certificate" style="color: #000000;"></i></span>
+                                    <span><i class="fa-solid fa-book" style="color: #000000;"></i></span>
+                                </div>
+                            </div>
+
+                            <div class="modMain">
+                                <div class="p-3 text-start">
+                                    <div class="feat mb-3">
+                                        <span>
+                                            <i class="fa-solid fa-star" style="color: #000000;"></i>featured
+                                        </span>
+                                    </div>
+                                    <p class="text-secondary">Any Stream</p>
+
+                                    <div class="modHead">
+                                        <h1>Data Science & Visualization</h1>
+                                    </div>
+
+                                    <ul>
+                                        <li class="abtTree">
+                                            <img src="PROFILE_SKILLUP_LOGO-02.webp" class="miniImg">
+                                        </li>
+                                        <li>
+                                            <p class="text-secondary">skillupitacademy</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="modFooter px-3 py-4">
+                                <div class="d-flex f-left">
+                                    <div class="CP">
+                                        <span>Core Programming</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="hoverMod hv5">
+                                <p class="anyBg mt-5">Any Stream</p>
+                                <h3 class="text-light fw-bold my-5">Data Science & Visualization</h3>
+                                <p class="text-light modPara">
+                                    Success is the natural consequence of consistently applying the basic fundamentals.
+                                </p>
+                                <div class="rating">
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                </div>
+                                <button class="btn-text border-0">
+                                    <span>For More detail</span>
+                                </button>
+                            </div>
+
+                        </div>
+                        <!-- Seventh -->
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                        <!-- Eigth -->
+                        <div class="mod animationUp my-3">
+
+                            <div class="modImg">
+                                <img src="modul5.webp">
+                                <div class="certificate">
+                                    <span><i class="fa-solid fa-certificate" style="color: #000000;"></i></span>
+                                    <span><i class="fa-solid fa-book" style="color: #000000;"></i></span>
+                                </div>
+                            </div>
+
+                            <div class="modMain">
+                                <div class="p-3 text-start">
+                                    <div class="feat mb-3">
+                                        <span>
+                                            <i class="fa-solid fa-star" style="color: #000000;"></i>featured
+                                        </span>
+                                    </div>
+                                    <p class="text-secondary">Any Stream</p>
+
+                                    <div class="modHead">
+                                        <h1>Cyber Security & Bitcoin</h1>
+                                    </div>
+
+                                    <ul>
+                                        <li class="abtTree">
+                                            <img src="PROFILE_SKILLUP_LOGO-02.webp" class="miniImg">
+                                        </li>
+                                        <li>
+                                            <p class="text-secondary">skillupitacademy</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="modFooter px-3 py-4">
+                                <div class="d-flex f-left">
+                                    <div class="CP">
+                                        <span>Core Designing</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="hoverMod hv6">
+                                <p class="anyBg mt-5">Any Stream</p>
+                                <h3 class="text-light fw-bold my-5">Cyber Security & Bitcoin Modules</h3>
+                                <p class="text-light modPara">
+                                    What separates design from art is that design is meant to be... functional.
+                                </p>
+                                <div class="rating">
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                </div>
+                                <button class="btn-text border-0">
+                                    <span>For More detail</span>
+                                </button>
+                            </div>
+
+                        </div>
+                        <!-- Eigth -->
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                        <!-- Ninth -->
+                        <div class="mod animationUp my-3">
+
+                            <div class="modImg">
+                                <img src="modul2.webp">
+                                <div class="certificate">
+                                    <span><i class="fa-solid fa-certificate" style="color: #000000;"></i></span>
+                                    <span><i class="fa-solid fa-book" style="color: #000000;"></i></span>
+                                </div>
+                            </div>
+
+                            <div class="modMain">
+                                <div class="p-3 text-start">
+                                    <div class="feat mb-3">
+                                        <span>
+                                            <i class="fa-solid fa-star" style="color: #000000;"></i>featured
+                                        </span>
+                                    </div>
+                                    <p class="text-secondary">Any Stream</p>
+
+                                    <div class="modHead">
+                                        <h1>Trending Courses</h1>
+                                    </div>
+
+                                    <ul>
+                                        <li class="abtTree">
+                                            <img src="PROFILE_SKILLUP_LOGO-02.webp" class="miniImg">
+                                        </li>
+                                        <li>
+                                            <p class="text-secondary">skillupitacademy</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="modFooter px-3 py-4">
+                                <div class="d-flex f-left">
+                                    <div class="CP">
+                                        <span>Core Designing</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="hoverMod hv1">
+                                <p class="anyBg mt-5">Any Stream</p>
+                                <h3 class="text-light fw-bold my-5">Trending Courses</h3>
+                                <p class="text-light modPara">
+                                    Success is the natural consequence of consistently applying the basic fundamentals.
+                                </p>
+                                <div class="rating">
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                    <i class="fa-solid fa-star" style="color: #fdc800;"></i>
+                                </div>
+                                <button class="btn-text border-0">
+                                    <span>For More detail</span>
+                                </button>
+                            </div>
+
+                        </div>
+                        <!-- Ninth -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modales -->
+
+    <!-- Enroll -->
+    <div class="enroll_light">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-12">
+                    <h1 style="color: #002147;" class="animationUp">Discover Your Future With US. Enroll Now.</h1>
+                    <p class="animationRight">LEARN SOMETHING WHEREVER YOU ARE</p>
+                    <button class="btn-text border-0 animationLeft">
+                        <span>join a course now</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Enroll -->
+
+    <!-- Footer -->
+    <footer>
+        <!-- Footer Top -->
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <!-- Popular Courses -->
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="pb-5">
+                            <div class="footer-top-header">
+                                <h1>Popular Courses</h1>
+                            </div>
+
+                            <div class="footer-top-list">
+                                <ul>
+                                    <li class="animationUp"><a href="#">Full Stack Development</a></li>
+                                    <li class="animationUp"><a href="#">Data Science</a></li>
+                                    <li class="animationUp"><a href="#">Web APP</a></li>
+                                    <li class="animationUp"><a href="#">APP Development</a></li>
+                                    <li class="animationUp"><a href="#">Deep Learning</a></li>
+                                    <li class="animationUp"><a href="#">Python</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Quick Link -->
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div>
+                            <div class="footer-top-header">
+                                <h1>Quick Link</h1>
+                            </div>
+
+                            <div class="footer-top-list">
+                                <ul>
+                                    <li class="animationUp"><a href="#">Placement Modules</a></li>
+                                    <li class="animationUp"><a href="#">Business Modules</a></li>
+                                    <li class="animationUp"><a href="#">Web Designing Modules</a></li>
+                                    <li class="animationUp"><a href="#">Cyber Security Modules</a></li>
+                                    <li class="animationUp"><a href="#">Bitcoin Modules</a></li>
+                                    <li class="animationUp"><a href="#">Cryptocurrency Modules</a></li>
+                                    <li class="animationUp"><a href="#">Ethical Hacking Modules</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Contact Us -->
+                    <div class="col-xl-4 col-lg-4 col-md-6 pb-3">
+                        <div>
+                            <div class="footer-top-header">
+                                <h1>Contact Us</h1>
+                            </div>
+
+                            <div class="footer-contact-list">
+                                <div>
+                                    <span><i class="fa-solid fa-phone" style="color: #fdc800;"></i></span>
+                                    <span>7208581498</span>
+                                </div>
+                                <div>
+                                    <span><i class="fa-regular fa-envelope" style="color: #fdc800;"></i></span>
+                                    <span>info@skillupitacademy.com</span>
+                                </div>
+                                <div>
+                                    <span><i class="fa-solid fa-phone" style="color: #fdc800;"></i></span>
+                                    <span>Andheri (W) | Ghatkopar (E)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Footer Top -->
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        Copyright © 2020 SkillUp IT Academy All Rights Reserved 3311
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Bottom -->
+    </footer>
+    <!-- Footer -->
+
+    <!-- TOP Button-->
+    <button type="button" class="btn" id="top-btn">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <!-- TOP Button-->
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
